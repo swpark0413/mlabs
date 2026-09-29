@@ -1,0 +1,19 @@
+Package: mlabs
+Type: Package
+Title: Multivariate Lévy Adaptive B-Spline Regression
+Version: 1.0.0
+Author: Sewon Park
+Maintainer: Sewon Park <swpark0413@sookmyung.ac.kr>
+Description: Bayesian nonparametric regression using a random sum of
+    low-order tensor-product B-spline basis functions under a finite Lévy
+    random measure prior. Posterior computation uses Bayesian backfitting,
+    collapsed reversible-jump Markov chain Monte Carlo, and residual-guided
+    structural proposals. Includes prediction, posterior summaries,
+    predictor-use measures, and diagnostic plots.
+License: GPL (>= 2)
+Depends: R (>= 3.5.0)
+Imports: Rcpp (>= 1.0.0), stats, utils, grDevices
+Suggests: ggplot2 (>= 3.4.0), patchwork, scales
+LinkingTo: Rcpp, RcppArmadillo
+Encoding: UTF-8
+Config/roxygen2/version: 8.0.0

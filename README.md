@@ -71,7 +71,6 @@ sqrt(mean((pred - genz(X_test))^2))
 
 # Posterior summaries and MCMC diagnostics.
 summary(fit)
-mlabs::diagnosis(fit)
 ```
 
 ![True Genz surface, noisy observations, and MLABS fitted surface](assets/genz_true_noisy_fitted.png)

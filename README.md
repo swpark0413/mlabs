@@ -90,4 +90,4 @@ The univariate predecessor is described in:
 
 ### License
 
-The package is distributed under the GPL (>= 2) license. See `DESCRIPTION` for details.
+The package is distributed under the GPL-3.0 license. See the [`LICENSE`](LICENSE) file for more details
